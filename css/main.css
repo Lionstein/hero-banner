@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  max-width: 50em;
+  bottom: 2em;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.img-flex {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
